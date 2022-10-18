@@ -95,7 +95,7 @@ body {
     letter-spacing: calc(var(--index) / 2.25);
 }
 
-.layers__caption {
+.layers__caption, .contact-title {
     font-size: calc(var(--index) / 1.175);
     letter-spacing: calc(var(--index) / 3.5);
     margin-top: calc(var(--index) * -0.75);
@@ -137,10 +137,24 @@ body {
     will-change: transform;
 }
 
-.copy {
+.contact-section {
     position: absolute;
     bottom: calc(var(--index) * 1.5);
-    opacity: 0.45;
+    font-size: calc(var(--index) *0.75);
+    letter-spacing: calc(var(--index) / 37.5);
+}
+
+.contact-section-link, .contact-section-item {
+    position: relative;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;
+}
+
+.copy .contact-title {
+    position: absolute;
+    bottom: calc(var(--index) * 1.5);
+    /* opacity: 0.15; */
     font-size: calc(var(--index) *0.75);
     letter-spacing: calc(var(--index) / 37.5);
 }
