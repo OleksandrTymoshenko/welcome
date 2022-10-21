@@ -124,6 +124,8 @@ body {
     transform: var(--main-article-transform);
     transition: var(--transition);
     will-change: transform;
+    color: var(--text);
+    text-shadow: 0 0 15px #fccb63;
 }
 
 .main-article__paragraph {
@@ -161,5 +163,7 @@ body {
     /* opacity: 0.15; */
     font-size: calc(var(--index) *0.75);
     letter-spacing: calc(var(--index) / 37.5);
+    color: var(--text);
+    text-shadow: 0 0 15px #fccb63;
 }
 
