@@ -26,6 +26,10 @@ body {
     background-color: #010101;
     font-family: raleway_f, sans-serif;
     line-height: 1.55;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .main-header {
